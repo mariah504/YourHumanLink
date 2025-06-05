@@ -1,0 +1,1 @@
+console.log("MyHumanLink chatbot would initialize here.");
