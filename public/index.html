@@ -1,15 +1,52 @@
-<!DOCTYPE html>Add commentMore actions
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Resources - 75069</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YourHumanLink</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="chatbot.js" defer></script>
 </head>
 <body>
-  <h2>Local Resources for McKinney, TX (75069)</h2>
-  <ul>
-    <li>Samaritan Inn – 1514 N McDonald St</li>
-    <li>Community Food Pantry – 307 Smith St</li>
-    <li>988 Mental Health Hotline</li>
-  </ul>
+
+  <header>
+    <h1>YourHumanLink</h1>
+    <p>You didn’t lose your place. The system lost track of you — and we're here to fix that.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🏠 Shelter Help</h2>
+      <p>Find a safe place to stay tonight near your zip code.</p>
+      <button onclick="window.location.href='75069.html'">View Shelter Info</button>
+    </section>
+
+    <section class="card">
+      <h2>🍽 Food & Hygiene</h2>
+      <p>Get meals, showers, and personal care help near you.</p>
+      <button onclick="alert('Food resources coming soon')">See Food Options</button>
+    </section>
+
+    <section class="card">
+      <h2>🪪 ID & Documents</h2>
+      <p>Need an ID or lost yours? Here's how to get help without a home address.</p>
+      <button onclick="alert('ID help page coming soon')">ID Help</button>
+    </section>
+
+    <section class="card">
+      <h2>🧠 Mental Health</h2>
+      <p>You’re not alone. Get connected to someone who listens — 24/7.</p>
+      <button onclick="window.open('https://988lifeline.org', '_blank')">Get Support</button>
+    </section>
+  </main>
+
+  <!-- Placeholder for MyHumanLink chatbot -->
+  <div id="chat-widget">
+    <div class="chat-launcher">💬</div>
+    <div class="chat-box" style="display: none;">
+      <p><strong>MyHumanLink:</strong> I’m here if you need shelter, food, or just someone to talk to.</p>
+    </div>
+  </div>
+
 </body>
 </html>
